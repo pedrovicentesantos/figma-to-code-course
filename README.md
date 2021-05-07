@@ -9,3 +9,11 @@ Consiste em um cartão simples com design responsivo utilizando apenas HTML e CS
 Link para acessar a aplicação:
 
 [https://pedrovicentesantos.github.io/figma-to-code-course/Simple%20Card/](https://pedrovicentesantos.github.io/figma-to-code-course/Simple%20Card/)
+
+## Projeto 2 - Simple Landing Page
+
+Consiste em uma landing page com design responsivo utilizando apenas HTML e CSS.
+
+Link para acessar a aplicação:
+
+[https://pedrovicentesantos.github.io/figma-to-code-course/Simple%20Landing%20Page/](https://pedrovicentesantos.github.io/figma-to-code-course/Simple%20Landing%20Page/)
