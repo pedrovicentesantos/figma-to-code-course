@@ -177,6 +177,10 @@ a.active:hover  {
     width: 15em;
   }
 
+  nav.active, nav.hidden {
+    transform: unset;
+  }
+
   .menu-btn, .back-btn {
     display: none;
   }
