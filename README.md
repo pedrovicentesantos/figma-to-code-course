@@ -18,7 +18,7 @@ Link para acessar a aplicação:
 
 [https://pedrovicentesantos.github.io/figma-to-code-course/Simple%20Landing%20Page/](https://pedrovicentesantos.github.io/figma-to-code-course/Simple%20Landing%20Page/)
 
-## Projeto 2 - Data Analytics Dashboard
+## Projeto 3 - Data Analytics Dashboard
 
 Consiste em um dashboard com design responsivo utilizando HTML e CSS. Além disso, possui um hamburger menu para a versão mobile, que é controlado utilizando JavaScript.
 
