@@ -25,3 +25,11 @@ Consiste em um dashboard com design responsivo utilizando HTML e CSS. Além diss
 Link para acessar a aplicação:
 
 [https://pedrovicentesantos.github.io/figma-to-code-course/Dashboard/](https://pedrovicentesantos.github.io/figma-to-code-course/Dashboard/)
+
+## Projeto 4 - Car Sales Site
+
+Consiste em um site que representa uma empresa que vende carros. Possui um botão para selecionar o que pode ser filtrado na pesquisa e a funcionalidade de marcar um carro como favorito.
+
+Link para acessar a aplicação:
+
+[https://pedrovicentesantos.github.io/figma-to-code-course/Car%20Sales%20Site/](https://pedrovicentesantos.github.io/figma-to-code-course/Car%20Sales%20Site/)
