@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Sales Site</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="col-1">
+      <div class="description">
+        <p class="title">
+          Available Cars
+        </p>
+        <p class="subtitle">
+          There are 15 cars that match your criteria
+        </p>
+      </div>
+      <div class="search">
+        <div class="search-input">
+            <input type="text" name="car" id="car">
+            <img class="menu" src="assets/menu.svg" alt="Menu">
+        </div>
+        <div class="filters hidden">
+          <ul>
+            <li>
+              <input checked type="checkbox" name="new-cars" id="new-cars">
+              <label for="new-cars">New cars</label>
+            </li>
+            <li>
+              <input type="checkbox" name="used-cars" id="used-cars">
+              <label for="used-cars">Used cars</label>
+            </li>
+            <li>
+              <input type="checkbox" name="dealership" id="dealership">
+              <label for="dealership">Dealership</label>
+            </li>
+            <li>
+              <input type="checkbox" name="for-sale" id="for-sale">
+              <label for="for-sale">For sale by owner</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="col-2">
+      <div class="labels">
+        <p>CAR DETAILS</p>
+        <p>LOCATION</p>
+        <p>PRICE</p>
+        <p>ACTION</p>
+      </div>
+      <div class="cars">
+        <div class="car">
+          <a href="#" class="name">
+            2017 Toyota Highlander V4
+          </a>
+          <p class="location">
+            1944 Scrimba Ln <br>
+            Youngstown, OH 44481
+          </p>
+          <div class="cols-2">
+            <p class="price">
+              $17,400
+            </p>
+            <img class="save" src="assets/save.svg" alt="Save">
+            <img class="saved hidden" src="assets/save-filled.svg" alt="Saved">
+          </div>
+        </div>
+        <div class="car">
+          <a href="#" class="name">
+            2012 Toyota Tundra 4x4
+          </a>
+          <p class="location">
+            301 Fantasy Dr <br>
+            Beverly Hills, CA 90210
+          </p>
+          <div class="cols-2">
+            <p class="price">
+              $23,900
+            </p>
+            <img class="save" src="assets/save.svg" alt="Save">
+            <img class="saved hidden" src="assets/save-filled.svg" alt="Saved">
+          </div>
+        </div>
+        <div class="car">
+          <a href="#" class="name">
+            2004 Dodge Ram 4x4
+          </a>
+          <p class="location">
+            9104 Falsety Ave <br>
+            AnonyVille, FL 40440
+          </p>
+          <div class="cols-2">
+            <p class="price">
+              $7,988
+            </p>
+            <img class="save" src="assets/save.svg" alt="Save">
+            <img class="saved hidden" src="assets/save-filled.svg" alt="Saved">
+          </div>
+        </div>
+        <div class="car">
+          <a href="#" class="name">
+            2021 Tesla Model 3
+          </a>
+          <p class="location">
+            993 Fiscal St <br>
+            Boulder, CO 93391
+          </p>
+          <div class="cols-2">
+            <p class="price">
+              $37,490
+            </p>
+            <img class="save" src="assets/save.svg" alt="Save">
+            <img class="saved hidden" src="assets/save-filled.svg" alt="Saved">
+          </div>
+        </div>
+        <div class="car">
+          <a href="#" class="name">
+            2017 Toyota Highlander V4
+          </a>
+          <p class="location">
+            1944 Scrimba Ln <br>
+            Youngstown, OH 44481
+          </p>
+          <div class="cols-2">
+            <p class="price">
+              $17,400
+            </p>
+            <img class="save" src="assets/save.svg" alt="Save">
+            <img class="saved hidden" src="assets/save-filled.svg" alt="Saved">
+          </div>
+        </div>
+        <div class="car">
+          <a href="#" class="name">
+            2012 Toyota Tundra 4x4
+          </a>
+          <p class="location">
+            301 Fantasy Dr <br>
+            Beverly Hills, CA 90210
+          </p>
+          <div class="cols-2">
+            <p class="price">
+              $23,900
+            </p>
+            <img class="save" src="assets/save.svg" alt="Save">
+            <img class="saved hidden" src="assets/save-filled.svg" alt="Saved">
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>

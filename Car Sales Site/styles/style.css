@@ -1,0 +1,203 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background: #F4F4F4;
+
+  display: grid;
+  /* place-items: center; */
+  height: 100vh;
+
+  padding: 2.5rem;
+
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+
+  color: #565656;
+}
+
+.search-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-input input {
+  background: #FFFFFF url('../assets/search.svg') no-repeat right 0.8em center;
+  border-radius: 36px;
+  border: none;
+
+  width: 100%;
+
+  padding: 0.8em;
+  margin-right: 1em;
+}
+
+.search-input input:focus {
+  outline: thin dotted;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.search {
+  position: relative;
+}
+
+.filters.hidden {
+  clip-path: circle(0% at 100% 0%);
+}
+
+.filters {
+  position: absolute;
+  top: 3em;
+  right: 0.5em;
+
+  background-color: white;
+  padding: 2em 1.5em;
+  box-shadow: 11px 18px 54px rgba(0, 0, 0, 0.11);
+  border-radius: 6px;
+
+  clip-path: circle(100% at 50% 50%);
+  transition: clip-path 0.3s ease-in-out;
+}
+
+.filters ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.filters li {
+  margin-bottom: 1.125em;
+}
+
+.filters li:last-of-type {
+  margin-bottom: 0;
+}
+
+.cars {
+  margin-top: 3em;
+}
+
+.car {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  width: 100%;
+
+  padding: 1em;
+}
+
+.car a {
+  text-decoration: none;
+  font-size: 1.375rem;
+  line-height: 1.2em;
+  color: #008AD8;
+  margin-bottom: 1.2em;
+}
+
+.car .location {
+  color: #686868;
+  font-size: 1.125rem;
+  line-height: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+.car .price {
+  font-size: 1.5rem;
+  line-height: 1.25em;
+}
+
+.cols-2 img {
+  cursor: pointer;
+}
+
+.car .cols-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.car p {
+  margin: 0;
+}
+
+.car:hover {
+  background-color: white;
+  border-radius: 6px;
+}
+
+img.hidden {
+  display: none;
+}
+
+.labels {
+  display: none;
+}
+
+@media only screen and (min-width: 900px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cars {
+    margin-top: 0;
+  }
+
+  .labels {
+    display: block;
+    background:  #008AD8;
+    border-radius: 6px;
+    color: white;
+    font-size: 0.875rem;
+    line-height: 1.2em;
+
+    display: grid;
+    grid-template-columns: 40% 30% 20% auto;
+    padding: 0.2em 1em;
+
+    margin-bottom: 2em;
+  }
+
+  .labels p:last-child {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .car {
+    display: grid;
+    grid-template-columns: 40% 30% auto;
+  }
+
+  .cols-2 img {
+    margin-right: 20%;
+  }
+
+  .subtitle {
+    margin:0.5em 0 2.25em;
+  }
+
+  .car .location {
+    margin: 0;
+  }
+  
+  .car a {
+    margin-bottom: 0;
+  }
+}
