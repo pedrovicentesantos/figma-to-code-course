@@ -33,3 +33,11 @@ Consiste em um site que representa uma empresa que vende carros. Possui um botã
 Link para acessar a aplicação:
 
 [https://pedrovicentesantos.github.io/figma-to-code-course/Car%20Sales%20Site/](https://pedrovicentesantos.github.io/figma-to-code-course/Car%20Sales%20Site/)
+
+## Projeto 5 - Drone Event Landing Page
+
+Consiste em uma landing page para um evento de drones. Possui um hamburger menu para a versão mobile, que é controlado utilizando JavaScript. Além disso, possui uma animação para a imagem do drone.
+
+Link para acessar a aplicação:
+
+[https://pedrovicentesantos.github.io/figma-to-code-course/Drone%20Event%20Landing%20Page/](https://pedrovicentesantos.github.io/figma-to-code-course/Drone%20Event%20Landing%20Page/)
