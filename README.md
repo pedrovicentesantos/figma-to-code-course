@@ -2,7 +2,10 @@
 
 O repositório contém todos os projetos desenvolvidos durante o curso [From Figma to Code](https://scrimba.com/learn/figmatocode) do [Scrimba](https://scrimba.com).
 
-## Projeto 1 - Simple Card
+O curso possui designs prontos no [Figma](https://figma.com), que procuram representar projetos encontrados na vida real. 
+O objetivo então é sair do design fornecido e construir o projeto usando HTML, CSS e JavaScript, de forma que se aproxime o máximo possível das especificações definidas.
+
+##  Projeto 1 - Simple Card 
 
 Consiste em um cartão simples com design responsivo utilizando apenas HTML e CSS.
 
