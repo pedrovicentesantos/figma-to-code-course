@@ -180,7 +180,7 @@ nav {
   color: white;
   background-color: #303853;
   position: relative;
-  padding: 4em 2em;
+  padding: 2em;
   margin-left: auto;
   height: 75vh;
   width: 90%;
@@ -383,7 +383,7 @@ form button {
   .description p {
     width: 100%;
   }
-  
+
   .container nav ul {
     background: none;
     display: flex;
