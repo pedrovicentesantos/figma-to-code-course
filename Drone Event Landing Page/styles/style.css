@@ -62,7 +62,7 @@ nav {
   justify-content: space-between;
 }
 
-nav ul {
+.container nav ul {
   background: #363B4E;
   position: fixed;
   top: 0;
@@ -75,11 +75,11 @@ nav ul {
   transition: transform 0.3s;
 }
 
-nav ul.hidden {
+.container nav ul.hidden {
   transform: translateX(100%);
 }
 
-nav ul li a {
+.container nav ul li a {
   color: white;
   font-size: 1.56rem;
   line-height: 141.6%;
@@ -122,7 +122,6 @@ nav ul li a {
   position: relative;
 }
 
-
 .description h1 {
   font-size: 3.06rem;
   font-weight: normal;
@@ -135,6 +134,7 @@ nav ul li a {
   line-height: 141.6%;
   width: 80%;
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 
 .drone-container {
@@ -146,6 +146,7 @@ nav ul li a {
 .blur, .drone {
   position: absolute;
   left: 0;
+  z-index: 1;
 }
 
 .blur {
@@ -342,7 +343,7 @@ form button {
   color: black;
 }
 
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 900px) {
   .container nav ul.hidden {
     transform: unset;
   }
@@ -354,6 +355,10 @@ form button {
   .top-bg-container {
     width: 80%;
     grid-template-columns: 60% auto;
+  }
+
+  .drone, .blur {
+    width: 75%;
   }
 
   .container {
@@ -408,8 +413,12 @@ form button {
     justify-self: center;
   }
 
-  blockquote {
+  .quote blockquote {
     font-size: 2rem;
+  }
+
+  .quote cite {
+    font-size: 1.5rem;
   }
 
   .gallery {
