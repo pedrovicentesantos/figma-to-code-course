@@ -377,8 +377,13 @@ form button {
 
   .description h1 {
     font-size: 5rem;
+    width: 100%;
   }
 
+  .description p {
+    width: 100%;
+  }
+  
   .container nav ul {
     background: none;
     display: flex;
