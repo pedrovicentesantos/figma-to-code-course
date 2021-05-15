@@ -198,8 +198,12 @@ a.active:hover  {
     padding: 2em;
   }
 
+  .title {
+    margin-bottom: 0;
+  }
+
   .description {
-    margin-bottom: 0.75em;
+    margin-bottom: 0.4em;
   }
 
   main {
