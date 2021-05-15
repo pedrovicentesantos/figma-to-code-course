@@ -198,6 +198,10 @@ a.active:hover  {
     padding: 2em;
   }
 
+  .description {
+    margin-bottom: 0.75em;
+  }
+
   main {
     background-position: 0px;
     background-size: cover;
